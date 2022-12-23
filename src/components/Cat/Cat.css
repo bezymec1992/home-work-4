@@ -1,0 +1,53 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 12323;
+    background-color: rgb(100, 153, 153);
+}
+.overflow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cat {
+    position: absolute;
+    transition: ease 0.3s;
+    z-index: -111;
+    cursor: pointer;
+    font-size: 20px;
+    padding:2px;
+    background-color: red;
+    border-radius: 50%;
+}
+.colorr {
+    color: blueviolet;
+    font-size: 24px;
+    border-radius: 50%;
+    
+}
+
+.one {
+    background-color: rgb(155, 155, 223);
+    position: absolute;
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 20px;
+    display: inline-block;
+    /* transition: ease 0.7s; */
+    z-index: -111;
+    border: 1px solid black;
+}
+button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    
+    transform: translate(-50%);
+}
